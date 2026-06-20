@@ -92,3 +92,8 @@ The Bottom line is that, among these indicators, literacy and 4G coverage move t
 
 ____________________________________________________________________________________________________________________________________________
 
+# Section 3 — Constituency Profile Generator 
+As directed, I have analysed this particular step in Jupyter notebook (where i also make use of AI tools to debug codes).
+The following constituency profile was analysed and created: Constituency snapshot, Scheme status, Infrastructure , Benchmarking,and 
+Fund utilisation flag.
+
