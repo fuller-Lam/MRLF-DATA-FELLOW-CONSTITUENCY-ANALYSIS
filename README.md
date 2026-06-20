@@ -1,6 +1,6 @@
 # MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS
 This repository was created to share my data analysis of Meghalaya's constituencies.
-The dataset that wa sused in this analysis was the sample data that was provided by the organisation comprising of 60 constituencies of Meghalaya.The data was analysed as per section wise.
+The dataset that was used in this analysis was the sample data that was provided by the organisation comprising of 60 constituencies of Meghalaya.The data was analysed as per section wise.
 __________________________________________________________________________________________________________________
 
 # Section 1 — Data Audit 
@@ -96,4 +96,5 @@ ________________________________________________________________________________
 As directed, I have analysed this particular step in Jupyter notebook (where i also make use of AI tools to debug codes).
 The following constituency profile was analysed and created: Constituency snapshot, Scheme status, Infrastructure , Benchmarking,and 
 Fund utilisation flag.
+The file was uploaded and shared in my repository and can be viewed by all. 
 
