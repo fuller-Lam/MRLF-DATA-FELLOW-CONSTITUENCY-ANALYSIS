@@ -1,4 +1,4 @@
-# MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS
+# MRLF-DATA FELLOW CONSTITUENCY ANALYSIS
 This repository was created to share my data analysis of Meghalaya's constituencies.
 The dataset that was used in this analysis was the sample data that was provided by the organisation comprising of 60 constituencies of Meghalaya.The data was analysed as per section wise.
 __________________________________________________________________________________________________________________
@@ -46,8 +46,8 @@ Weakest districts for PM Awas- South West Garo Hills (56.9%), East Khasi Hills (
 The Bottom line on geography is that, _there is a geographic pattern_. JJM underperformance is strongly clustered in the Garo belt, especially North and East Garo Hills, PM Awas underperformance is less regionally concentrated and appears in both Khasi and Garo constituencies, East Khasi Hills has several PM Awas laggards despite relatively stronger JJM performance overall.
 
 **BPL concentration correlation with scheme delivery**
-When I look at data related to BPL household concentraion and scheme delivery, I used the following seven (7) variables, i).BPL Households Pct	, ii).JJM Functional Tap Connections Pct, iii).PM Awas Completion_Pct, iv).Literacy Rate Pct, v).Pucca Road Pct, vi).Internet 4G Coverage Pct, vii).Road Length Km. For this test, I employ Spearman's Rank correlation and OLS regression.I test to checks whether there is a monotonic relationship between the two variables, meaning whether , when one variable increases, does the other tend to increase or decrease.
-I test for the relationship between BPL vs JJM and BPL vs PMAY. My analysis found that BPL vs JJM the correlation is about -0.43, showing a moderate negative relationship between BPL and JJM, meaning, as BPL increases, JJM tends to decrease, or vice versa. The p-value is 0.00062, which is very small and well below the common threshold of 0.05. So this relationship is _statistically significant_. In plain English, this means the negative relationship is unlikely to be due to random chance.When I test for the correlation between BPL vs PMAY, I found that BPL vs PMAY correlation is about 0.048, which is very close to zero, meaning that there is almost no linear relationship between BPL and PMAY in my data. The p-value is 0.713, which is much larger than 0.05. So this relationship is _not statistically significant_. In plain English, there is no strong evidence of a real linear association between these two variables.
+When I look at data related to BPL household concentraion and scheme delivery, I used the following seven (7) variables, i).BPL Households Pct	, ii).JJM Functional Tap Connections Pct, iii).PM Awas Completion_Pct, iv).Literacy Rate Pct, v).Pucca Road Pct, vi).Internet 4G Coverage Pct, vii).Road Length Km. For this test, I employ Spearman's Rank correlation and OLS regression.I test to check whether there is a monotonic relationship between the two variables, meaning whether ,when one variable increases, does the other tend to increase or decrease.
+I test for the relationship between _BPL vs JJM and BPL vs PMAY_. My analysis found that BPL vs JJM the correlation is about -0.43, showing a moderate negative relationship between BPL and JJM, meaning, as BPL increases, JJM tends to decrease, or vice versa. The p-value is 0.00062, which is very small and well below the common threshold of 0.05. So this relationship is _statistically significant_. In essence, this means the negative relationship is unlikely to be due to random chance.When I test for the correlation between BPL vs PMAY, I found that BPL vs PMAY correlation is about 0.048, which is very close to zero, meaning that there is almost no linear relationship between BPL and PMAY in my data. The p-value is 0.713, which is much larger than 0.05. So this relationship is _not statistically significant_. In plain English, there is no strong evidence of a real linear association between these two variables.
 <img width="2368" height="1765" alt="BPL_vs_JJM_Correlation" src="https://github.com/user-attachments/assets/e20ac79f-c6d9-4094-beab-080d4c2e5cf4" />
 <img width="2368" height="1765" alt="BPL_vs_PMAY_Correlation" src="https://github.com/user-attachments/assets/b6e8627f-0b5c-4639-a4aa-4b21ee67a161" />
 
@@ -64,6 +64,10 @@ _**Underutilisation of Funds for Development is being driven less by lack of nee
 
 More specifically, places with high BPL populations,weaker connectivity, lower service coverage,and likely more dispersed or difficult terrain across the state
 may struggle to convert allocations into completed projects because of: _procurement delays, limited local administrative capacity, contractor shortages, transport/logistics challenges, weaker monitoring due to poor digital connectivity_.
+
+<img width="3570" height="1770" alt="05_Fund_Risk" src="https://github.com/user-attachments/assets/5e5527a7-48a5-43f1-93ca-9b315d960ef1" />
+
+
 
   4.**My own Findings**: For this part, i analysed data related to Health and Education as most of the earlier analysis have covered extensively on schemes and infra. The following variables are used for this analysis- _i).Primary_Health_Centres, ii).Community_Health_Centres, iii).Govt_Primary_Schools, iv).Govt_Secondary_Schools, v).Literacy_Rate_Pct, vii).Internet_4G_Coverage_Pct._
 
