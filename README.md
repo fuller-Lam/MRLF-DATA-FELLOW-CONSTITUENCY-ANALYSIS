@@ -10,16 +10,3 @@ In this section,the data was analysed in R and Excel subsequently.I first load t
 The Results of the Descriptive statistics of the 8 numerical variables are here:
 
 
-# DELIVERABLES
-constituency-data-analysis/
-├── data/
-│   └── meghalaya_constituency_data.csv
-├── src/
-│   └── profile_generator.py
-├── notebooks/                        
-│   └── analysis.ipynb             
-├── reports/
-│   └── sample_profile.txt            
-├── charts/                           
-├── dashboard/                        
-└── README.md
