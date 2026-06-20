@@ -98,3 +98,10 @@ The following constituency profile was analysed and created: Constituency snapsh
 Fund utilisation flag.
 The file was uploaded and shared in my repository and can be viewed by all. 
 
+____________________________________________________________________________________________________________________________________________
+
+# Section 4 — Bonus: Interactive Dashboard 
+
+An interactive dashboard was build using Power BI supporting, Filtering by region and district, Displaying 3 indicators side-by-side for a selected constituency, Highlighted the bottom 5 and top 5 constituencies Education, Scheme delivery gaps and Health care.
+
+
