@@ -77,13 +77,13 @@ When I test for the correlation between BPL vs PMAY, I found that the correlatio
 
 The correlation and OLS regression analyses data and findings can be viewed here: - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Correlation%20analysis.ipynb">Correlation and OLS regression findings<a/>
 
-Correlations-
+**Correlations-**
 | Analysis               | Spearman_Correlation | P_Value  |
 | ---------------------- | -------------------- | -------- |
 | BPL vs JJM Coverage    | -0.42923             | 0.000621 |
 | BPL vs PMAY Completion | 0.048547             | 0.712614 |
 
-JJM Regression- 
+**JJM Regression-** 
 | Variable                 | Coefficient | P_Value  | Std_Error |
 | ------------------------ | ----------- | -------- | --------- |
 | Intercept                | \-1.1033    | 0.961889 | 22.98448  |
@@ -92,7 +92,7 @@ JJM Regression-
 | Pucca_Road_Pct           | 0.380785    | 0.007127 | 0.136225  |
 | Internet_4G_Coverage_Pct | 0.224441    | 0.064261 | 0.118857  |
 
-PMAY Regression-
+**PMAY Regression-**
 
 | Variable                 | Coefficient | P_Value  | Std_Error |
 | ------------------------ | ----------- | -------- | --------- |
