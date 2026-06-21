@@ -1,6 +1,9 @@
 # MRLF-DATA FELLOW CONSTITUENCY ANALYSIS
 This repository was created to share my data analysis of Meghalaya's constituencies.
 The dataset that was used in this analysis was the sample data that was provided by the organisation comprising of 60 constituencies of Meghalaya.The data then were analysed as per section wise and the findings are also presented subsequently.
+
+**Note on the Use of Analytical Tools and AI:**
+_For the purpose of this analysis, descriptive statistics were first calculated manually in Excel and subsequently verified in R to ensure data accuracy. Correlation and regression analyses were conducted in Jupyter Notebook, while Power BI was used to generate the dashboards. AI tools were also utilised to assist with syntax error correction, specifically for the analysis in Section 3._
 __________________________________________________________________________________________________________________
 
 # Section 1 — Data Audit 
@@ -169,6 +172,3 @@ Dashboard link: - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONST
 
 _______________________________________________________________________________________________________________________________________________
 
-
-**Note on the Use of Analytical Tools and AI:**
-_For the purpose of this analysis, descriptive statistics were first calculated manually in Excel and subsequently verified in R to ensure data accuracy. Correlation and regression analyses were conducted in Jupyter Notebook, while Power BI was used to generate the dashboards. AI tools were also utilised to assist with syntax error correction, specifically for the analysis in Section 3._
