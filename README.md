@@ -74,7 +74,6 @@ may struggle to convert allocations into completed projects because of: _procure
 <img width="3570" height="1770" alt="05_Fund_Risk" src="https://github.com/user-attachments/assets/5e5527a7-48a5-43f1-93ca-9b315d960ef1" />
 
 
-
   4.**My own Findings**: For this part, i analysed data related to Health and Education as most of the earlier analysis have covered extensively on schemes and infra. The following variables are used for this analysis- _i).Primary_Health_Centres, ii).Community_Health_Centres, iii).Govt_Primary_Schools, iv).Govt_Secondary_Schools, v).Literacy_Rate_Pct, vii).Internet_4G_Coverage_Pct._
 
 What i discovered was that,these variables do not all move together. In other words, a constituency with more schools or health centres does not automatically show higher literacy or better internet coverage.
@@ -114,8 +113,15 @@ The results of this analysis is also available in excel form:
 - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Meghalaya_Constituency_Report.csv">Constituency snapshot,Scheme status,Infrastructure,Benchmarking & Fund Utilisation</a>
 ____________________________________________________________________________________________________________________________________________
 
-# Section 4 — Bonus: Interactive Dashboard 
+# Section 4 —: Interactive Dashboard 
 
-An interactive dashboard was build using Power BI supporting, Filtering by region and district, Displaying 3 indicators side-by-side for a selected constituency, Highlighted the bottom 5 and top 5 constituencies.The first dashboard was created to compare four variables -Electorate size,PM KISAN benefoiciaries,MGNREGS person per days and BPL by region. The second was about the side by side view of Mawlai constituency in three variables-JJM coverage, literacy and PM awas yojna, and the third is about the comaprison of literacy rate of the top 5 and bottom 5 states.
+An interactive dashboard was build using Power BI supporting, Filtering by region and district, Displaying 3 indicators side-by-side for a selected constituency, Highlighting the bottom 5 and top 5 constituencies.
+
+The first dashboard was created to compare four variables -_Electorate size,PM KISAN benefoiciaries,MGNREGS person per days and BPL_ by region. The second was about the side by side view of Mawlai constituency in three variables-_JJM coverage, literacy and PM Awas yojna_, and the third is about the comaprison of _Literacy rate_ of the top 5 and bottom 5 states respectively.
 
 Dashboard link: - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Dashboard.pdf">Dashboard</a>
+
+
+
+**Note on the Use of Analytical Tools and AI:**
+_For the purpose of this analysis, descriptive statistics were first calculated manually in Excel and subsequently verified in R to ensure data accuracy. Correlation and regression analyses were conducted in Jupyter Notebook, while Power BI was used to generate the dashboards. AI tools were also utilised to assist with syntax error correction, specifically for the analysis in Section 3._
