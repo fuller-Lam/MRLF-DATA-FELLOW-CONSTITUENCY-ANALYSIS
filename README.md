@@ -117,10 +117,11 @@ ________________________________________________________________________________
 
 An interactive dashboard was build using Power BI supporting, Filtering by region and district, Displaying 3 indicators side-by-side for a selected constituency, Highlighting the bottom 5 and top 5 constituencies.
 
-The first dashboard was created to compare four variables -_Electorate size,PM KISAN benefoiciaries,MGNREGS person per days and BPL_ by region. The second was about the side by side view of Mawlai constituency in three variables-_JJM coverage, literacy and PM Awas yojna_, and the third is about the comaprison of _Literacy rate_ of the top 5 and bottom 5 states respectively.
+The first dashboard was created to compare four variables -_Electorate size,PM KISAN benefoiciaries,MGNREGS person per days and BPL_ by region. The second was about the side by side view of Mawlai constituency in three variables-_JJM coverage, literacy and PM Awas yojna_, and the third is about the comparison of _Literacy rate_ of the top 5 and bottom 5 states respectively.
 
 Dashboard link: - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Dashboard.pdf">Dashboard</a>
 
+_______________________________________________________________________________________________________________________________________________
 
 
 **Note on the Use of Analytical Tools and AI:**
