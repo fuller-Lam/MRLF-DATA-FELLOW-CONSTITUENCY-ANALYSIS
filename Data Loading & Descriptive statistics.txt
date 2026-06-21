@@ -1,0 +1,17 @@
+getwd()
+# Load libraries
+library(readr)
+library(psych)
+library(pastecs)
+# Data Loading and Reading from CSV file
+data <- read_csv("C:/Users/ohabi/OneDrive/Desktop/MRLF DATA FELLOW ASSIGNMENTS/New folder/DATA_SECTION_1.csv")
+
+# Since I am analysing just data, I Select columns E to L
+num_data <- data[, 5:12]
+describe(num_data)
+
+# To save files in excel
+library(writexl)
+desc_stats <- describe(num_data)
+write_xlsx(as.data.frame(desc_stats),
+           "Descriptive_Statistics.xlsx")
