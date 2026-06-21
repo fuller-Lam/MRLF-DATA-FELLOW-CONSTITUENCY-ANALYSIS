@@ -106,7 +106,8 @@ ________________________________________________________________________________
 As directed, I have analysed this particular step in Jupyter notebook (where i also make use of AI tools to debug codes).
 The following constituency profile was analysed and created: Constituency snapshot, Scheme status, Infrastructure , Benchmarking,and 
 Fund utilisation flag.
-The file was uploaded and shared in my repository and can be viewed by all. 
+The Constituency Profile is available here:
+- <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Executable%20script.ipynb">Constituency Profile Generator</a>
 
 ____________________________________________________________________________________________________________________________________________
 
