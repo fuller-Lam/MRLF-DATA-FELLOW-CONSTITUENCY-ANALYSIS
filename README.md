@@ -159,8 +159,8 @@ The following constituency profile was analysed and created: Constituency snapsh
 Fund utilisation flag.
 
 The Constituency Profile is available here:
-- <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Executable%20script.ipynb">Constituency Profile Generator</a>
 
+- <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Profile%20generator%20of%203%20const.ipynb">Constituency Profile Generator</a>
 The results of this analysis is also available in excel form:
 - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Meghalaya_Constituency_Report.csv">Constituency snapshot,Scheme status,Infrastructure,Benchmarking & Fund Utilisation</a>
 ____________________________________________________________________________________________________________________________________________
