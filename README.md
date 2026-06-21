@@ -12,6 +12,12 @@ However, there are certain noteworthy outlier in **Total Households and Electora
 
 Voters per household will help us compare how electorally dense each constituency is and BPL household share provides a standardized poverty measure, which is better than raw counts when comparing constituencies of different sizes.The new columns essentially has two additional numerical  normalized variable where Mawlai has about 7.03 Voters per household, BPL household share of about 0.26, and subsequently for the rest of the 60 constituencies was calculated. All of these calculations were carried out in Excel. 
 
+The dataset that was used in this section 1 of the analysis is avalaible here:
+ - <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/DATA%20SECTION%201%20with%20two%20derived%20columns.csv"> Dataset with 8 numerical variables</a>
+
+The results of the descriptive statistics is avaliable here:
+- <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Descriptive_Statistics.csv">Descritptive statistics of 8 numerical variables</a>
+
 | variable                  | n  | mean     | sd       | median | min   | max   | range |
 | ------------------------- | -- | -------- | -------- | ------ | ----- | ----- | ----- |
 | Total_Household           | 60 | 4343.15  | 2293.832 | 3514   | 1629  | 11211 | 9582  |
@@ -23,13 +29,6 @@ Voters per household will help us compare how electorally dense each constituenc
 | Govt_Primary_Schools      | 60 | 34.95    | 13.53392 | 36.5   | 8     | 55    | 47    |
 | PM_KISAN_Beneficiaries    | 60 | 749.2833 | 336.3872 | 735    | 176   | 1634  | 1458  |
 
-
-
-The dataset that was used in this section 1 of the analysis is avalaible here:
- - <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/DATA%20SECTION%201%20with%20two%20derived%20columns.csv"> Dataset with 8 numerical variables</a>
-
-The results of the descriptive statistics is avaliable here:
-- <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Descriptive_Statistics.csv">Descritptive statistics of 8 numerical variables</a>
 
 _____________________________________________________________________________________________________________________________________________
 # Section 2 — Analytical Deep-Dive 
