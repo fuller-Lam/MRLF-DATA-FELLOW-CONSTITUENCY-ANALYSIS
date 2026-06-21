@@ -13,10 +13,10 @@ However, there are certain noteworthy outlier in **Total Households and Electora
  Voters per household will help us compare how electorally dense each constituency is and BPL household share provides a standardized poverty burden measure, which is better than raw counts when comparing constituencies of different sizes.The new columns essentially has two additional numerical  normalized variable where Mawlai has about 7.03 Voters per household, BPL household share of about 0.26, and subsequently for the rest of the 60 constituencies was calculated. All of these calculations were carried out in Excel. 
 
  The dataset that was used in this section 1 of the analysis is avalaible here:
- -<ca href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/DATA%20SECTION%201%20with%20two%20derived%20columns.csv">Dataset with 8 numerical variables</a>
+ - <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/DATA%20SECTION%201%20with%20two%20derived%20columns.csv"> Dataset with 8 numerical variables</a>
 
 The results of the dewscriptive statistics is avaliable here:
--<ca href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Descriptive_Statistics.csv">Descritptive statistics of 8 numerical variables</a>
+- <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Descriptive_Statistics.csv">Descritptive statistics of 8 numerical variables</a>
 
 _________________________________________________________________________________________________
 
