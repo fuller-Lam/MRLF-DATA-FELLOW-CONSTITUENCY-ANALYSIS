@@ -16,7 +16,6 @@ The dataset that was used in this section 1 of the analysis is avalaible here:
  - <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/DATA%20SECTION%201%20with%20two%20derived%20columns.csv"> Dataset with 8 numerical variables</a>
 
 The results of the descriptive statistics of the 8 variables in this analysis is provided below:
-
 | variable                  | n  | mean     | sd       | median | min   | max   | range |
 | ------------------------- | -- | -------- | -------- | ------ | ----- | ----- | ----- |
 | Total_Household           | 60 | 4343.15  | 2293.832 | 3514   | 1629  | 11211 | 9582  |
