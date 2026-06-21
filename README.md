@@ -28,8 +28,8 @@ ________________________________________________________________________________
 
 **Pucca road share**, which is usually the better quality indicator, Jaintia Hills is the weakest at 49.92%, compared with 56.19% in Garo Hills and 63.05% in Khasi Hills. So for road quality, Jaintia Hills is the most underserved.
 Literacy- For literacy rate, Jaintia Hills again ranks lowest at 73.1%, slightly below Garo Hills at 74.0%, and well below Khasi Hills at 77.7%.
+So, on Education outcomes, Jaintia Hills is the most underserved.
 
-So on education outcomes, Jaintia Hills is the most underserved.
 Which region is most underserved?
 If we judge overall across water, road quality, and literacy, the answer is:
 Jaintia Hills is the most underserved overall.
@@ -47,7 +47,7 @@ The weakest constituencies on PM Awas completion are: Sohiong (46.9%), East Shil
 
 When we look at the **Geographic pattern** of these data ,we found that the average delivery by region shows a visible pattern-
 **Garo Hills**- JJM average: 43.4%, PM Awas average: 71.0% ; **Jaintia Hills**-JJM average: 46.9%, PM Awas average: 77.3%, **Khasi Hills**- JJM average: 61.4%, PM Awas average: 69.9%.
-What we know from the data is that, JJM weakness is concentrated more in Garo Hills and parts of Jaintia Hills.Khasi Hills performs much better on JJM on average, though it still has some PM Awas laggards. PM Awas weakness is more mixed geographically, several of the bottom constituencies are in Khasi Hills, but South West / West Garo Hills also contribute lagging constituencies
+What we know from the data is that, JJM weakness is concentrated more in Garo Hills and parts of Jaintia Hills.Khasi Hills performs much better on JJM on average, though it still has some PM Awas laggards. PM Awas weakness is more mixed geographically, several of the bottom constituencies are in Khasi Hills, but South West /West Garo Hills also contribute lagging constituencies
 
 **By district**
 District averages shows the pattern further:
@@ -63,13 +63,13 @@ For this test, I employ **Spearman's Rank correlation** and **OLS regression**.I
 I first test for the relationship between _BPL vs JJM and BPL vs PMAY_. My analysis found that BPL vs JJM the correlation is about -0.43, showing a moderate negative relationship between BPL and JJM, meaning, as BPL increases, JJM tends to decrease, or vice versa. The p-value is 0.00062, which is very small and well below the common threshold of 0.05. So this relationship is _statistically significant_. In essence, this means the negative relationship is unlikely to be due to random chance.
 <img width="2368" height="1765" alt="BPL_vs_JJM_Correlation" src="https://github.com/user-attachments/assets/e20ac79f-c6d9-4094-beab-080d4c2e5cf4" />
 
-When I test for the correlation between BPL vs PMAY, I found that BPL vs PMAY correlation is about 0.048, which is very close to zero, meaning that there is almost no linear relationship between BPL and PMAY in my data. The p-value is 0.713, which is much larger than 0.05. So this relationship is _not statistically significant_. In plain English, there is no strong evidence of a real linear association between these two variables.
+When I test for the correlation between BPL vs PMAY, I found that the correlation is about 0.048, which is very close to zero, meaning that there is almost no linear relationship between BPL and PMAY in my data. The p-value is 0.713, which is much larger than 0.05. So this relationship is _not statistically significant_. In plain English, there is no strong evidence of a real linear association between these two variables.
 <img width="2368" height="1765" alt="BPL_vs_PMAY_Correlation" src="https://github.com/user-attachments/assets/b6e8627f-0b5c-4639-a4aa-4b21ee67a161" />
 
 The correlation and OLS regression analyses data and findings can be viewed here: - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Correlation%20analysis.ipynb">Correlation and OLS regression findings<a/>
 
 
-  3.**Fund utilisation** - The 5 constituencies with the lowest Constituency Development Fund utilisation are: Shangpung (35.3%), Gambegre (35.6%), Raksamgiri (36.8%), Mahendraganj (37.5%), Sohra (40.1%).A few observations were seen as per the data,where we found regional pattern, with _3 of the 5_ regions are in Garo Hills, 1 is in Jaintia Hills, and 1 is in Khasi Hills.So the underutilisation is not random - it appears more concentrated in Garo Hills and other less urban / harder-to-service areas. These 5 constituencies have consistently high BPL shares- Shangpung (44.0%), Gambegre (42.6%), Raksamgiri (43.1%),Mahendraganj (47.7%), Sohra (55.0%). For context, the average BPL in the dataset  is about 38.46%. So all five are above average, and Sohra is especially high.
+3.**Fund utilisation** - The 5 constituencies with the lowest Constituency Development Fund utilisation are: Shangpung (35.3%), Gambegre (35.6%), Raksamgiri (36.8%), Mahendraganj (37.5%), Sohra (40.1%).A few observations were seen as per the data,where we found regional pattern, with _3 of the 5_ regions are in Garo Hills, 1 is in Jaintia Hills, and 1 is in Khasi Hills.So the underutilisation is not random - it appears more concentrated in Garo Hills and other less urban / harder-to-service areas. These 5 constituencies have consistently high BPL shares- Shangpung (44.0%), Gambegre (42.6%), Raksamgiri (43.1%),Mahendraganj (47.7%), Sohra (55.0%). For context, the average BPL in the dataset  is about 38.46%. So all five are above average, and Sohra is especially high.
 
 **Weak infrastructure tends to coincide with low utilisation**- Compared with the dataset average, these constituencies generally show :Lower tap-water coverage, Lower 4G coverage, weak road connectivity.The dataset averages shows that, JJM tap connections (52.4%), Pucca road share (58.2%), 4G coverage (51.7%).
 For context, **Shangpung** - JJM 29.1%, roads 49.6%, 4G 43.8%; **Mahendraganj** - JJM 51.7%, roads 48.0%, 4G 26.5% ; **Raksamgiri** - 4G only 50.8%, though roads are somewhat better at 70.4% ,**Sohra** - roads are decent at 69.4%, but 4G is only 45.4% and BPL is very high ,**Gambegre** - roads 57.9%, 4G 69.0%, but tap coverage still low at 46.1%.  So the broad pattern is: _higher poverty -> patchier physical and digital infrastructure->lower fund utilisation._
@@ -85,7 +85,7 @@ may struggle to convert allocations into completed projects because of: _procure
 <img width="3570" height="1770" alt="05_Fund_Risk" src="https://github.com/user-attachments/assets/5e5527a7-48a5-43f1-93ca-9b315d960ef1" />
 
 
-  4.**My own Findings**: For this part, i analysed data related to Health and Education as most of the earlier analysis have covered extensively on schemes and infra. The following variables are used for this analysis- _i).Primary_Health_Centres, ii).Community_Health_Centres, iii).Govt_Primary_Schools, iv).Govt_Secondary_Schools, v).Literacy_Rate_Pct, vii).Internet_4G_Coverage_Pct._
+4.**My own Findings**: For this part, i analysed data related to Health and Education as most of the earlier analysis have covered extensively on schemes and infra. The following variables are used for this analysis- _i).Primary_Health_Centres, ii).Community_Health_Centres, iii).Govt_Primary_Schools, iv).Govt_Secondary_Schools, v).Literacy_Rate_Pct, vii).Internet_4G_Coverage_Pct._
 
 What i discovered was that,these variables do not all move together. In other words, a constituency with more schools or health centres does not automatically show higher literacy or better internet coverage.
 
