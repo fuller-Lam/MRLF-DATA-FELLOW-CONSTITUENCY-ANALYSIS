@@ -15,8 +15,7 @@ Voters per household will help us compare how electorally dense each constituenc
 The dataset that was used in this section 1 of the analysis is avalaible here:
  - <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/DATA%20SECTION%201%20with%20two%20derived%20columns.csv"> Dataset with 8 numerical variables</a>
 
-The results of the descriptive statistics is avaliable here:
-- <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Descriptive_Statistics.csv">Descritptive statistics of 8 numerical variables</a>
+The results of the descriptive statistics of the 8 variables in this analysis is provided below:
 
 | variable                  | n  | mean     | sd       | median | min   | max   | range |
 | ------------------------- | -- | -------- | -------- | ------ | ----- | ----- | ----- |
