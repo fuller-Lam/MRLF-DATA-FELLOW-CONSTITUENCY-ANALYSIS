@@ -1,6 +1,6 @@
 # MRLF-DATA FELLOW CONSTITUENCY ANALYSIS
 This repository was created to share my data analysis of Meghalaya's constituencies.
-The dataset that was used in this analysis was the sample data that was provided by the organisation comprising of 60 constituencies of Meghalaya.The data was analysed as per section wise.
+The dataset that was used in this analysis was the sample data that was provided by the organisation comprising of 60 constituencies of Meghalaya.The data then were analysed as per section wise and the findings are also presented subsequently.
 __________________________________________________________________________________________________________________
 
 # Section 1 — Data Audit 
