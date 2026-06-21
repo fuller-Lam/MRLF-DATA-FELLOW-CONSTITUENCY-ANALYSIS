@@ -5,20 +5,20 @@ ________________________________________________________________________________
 
 # Section 1 — Data Audit 
 
-1. Loading data: In this section,the data was analysed in R and Excel subsequently.I first load the data in R to perfrom Descriptive statistics (mean, median, minimum, maximum, stdard deviation) of 8 numerical variables of my choice. For this analysis, I have chosen **(i).Total_Households	(ii).Electorate 2023	(iii).BPL Households Count, (iv).MGNREGS Active Job Cards, (v).PM Awas Yojana Sanctioned, (vi).Health Sub Centres, (vii).Govt Primary Schools, (viii).PM KISAN Beneficiaries**. The variables chosen for this particular analysis are raw count data. I first analysed the descriptive statistics of the data in Excel after which i run them in R. I cross checked both the results for data accuracy.
+1. Loading data: In this section,the data was analysed in R and Excel subsequently.I first load the data in R to perfrom Descriptive statistics (mean, median, minimum, maximum, stdard deviation) of 8 numerical variables of my choice. For this analysis, I have chosen **(i).Total_Households	(ii).Electorate 2023	(iii).BPL Households Count, (iv).MGNREGS Active Job Cards, (v).PM Awas Yojana Sanctioned, (vi).Health Sub Centres, (vii).Govt Primary Schools, (viii).PM KISAN Beneficiaries**. The variables chosen for this particular analysis are raw count data. I first analysed the descriptive statistics of the data in Excel,and after which i run them in R. I cross checked both the results for data accuracy.
 
 2. Identification of data quality issues — I inspected the sample file and after which I have created a file of just 8 numerical column and it looks generally clean structurally, but there are a few things that caught my attention that are worth checking before I proceed with the analysis. There are No missing values or duplicate records,every data is unique. The file has 60 rows and 28 columns and there are no nulls and no duplicated rows.
 However, there are certain noteworthy outlier in **Total Households and Electorate 2023.** These two variables show the most outlier flags by Inter Quartile Range. A handful of constituencies have much larger values than the rest, especially Constituencies like Shillong Cantonment, Tura, North Tura, Pynthorumkhrah, and Jowai.Although the data for this assignment was curated, the data from these constituencies are large and demands thorough analysis.Two columns were added derived from the dataset :_**Voters per household and BPL household share**._
 
- Voters per household will help us compare how electorally dense each constituency is and BPL household share provides a standardized poverty burden measure, which is better than raw counts when comparing constituencies of different sizes.The new columns essentially has two additional numerical  normalized variable where Mawlai has about 7.03 Voters per household, BPL household share of about 0.26, and subsequently for the rest of the 60 constituencies was calculated. All of these calculations were carried out in Excel. 
+Voters per household will help us compare how electorally dense each constituency is and BPL household share provides a standardized poverty burden measure, which is better than raw counts when comparing constituencies of different sizes.The new columns essentially has two additional numerical  normalized variable where Mawlai has about 7.03 Voters per household, BPL household share of about 0.26, and subsequently for the rest of the 60 constituencies was calculated. All of these calculations were carried out in Excel. 
 
- The dataset that was used in this section 1 of the analysis is avalaible here:
+The dataset that was used in this section 1 of the analysis is avalaible here:
  - <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/DATA%20SECTION%201%20with%20two%20derived%20columns.csv"> Dataset with 8 numerical variables</a>
 
 The results of the descriptive statistics is avaliable here:
 - <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Descriptive_Statistics.csv">Descritptive statistics of 8 numerical variables</a>
 
-_________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________
 
 # Section 2 — Analytical Deep-Dive 
 1. Regional disparities - Comaprison between Khasi Hills, Jaintia Hills, and Garo Hills on Water access (JJM), Road infrastructure, and Literacy	                 **Khasi Hills** - _JJM functional tap connections (61.4%),Road length km (144.68km), Pucca road (63.05%) and Literacy rate (77.7%)_ ; **Jaintia Hills**	- _JJM functional tap connections (46.9%),Road length km (170.6km), Pucca road (49.92%) and Literacy rate (73.1%)_ ; **Garo Hills** -_JJM functional tap connections (43.4%),Road length km (173.7km), Pucca road (56.19%) and Literacy rate (74.0%)_.
@@ -27,19 +27,22 @@ ________________________________________________________________________________
 **Road infrastructure**- Road infrastructure shows a more mixed story because there are two different measures here. On total road length, Khasi Hills has the lowest average at about 144.68 km, compared with 170.6 km in Jaintia Hills and 173.7 km in Garo Hills. But lower road length does not automatically mean worse infrastructure, because regions can differ in size and terrain.
 **Pucca road share**, which is usually the better quality indicator, Jaintia Hills is the weakest at 49.92%, compared with 56.19% in Garo Hills and 63.05% in Khasi Hills. So for road quality, Jaintia Hills is the most underserved.
 Literacy- For literacy rate, Jaintia Hills again ranks lowest at 73.1%, slightly below Garo Hills at 74.0%, and well below Khasi Hills at 77.7%.
+
 So on education outcomes, Jaintia Hills is the most underserved.
 Which region is most underserved?
 If we judge overall across water, road quality, and literacy, the answer is:
 Jaintia Hills is the most underserved overall.
+
 That’s because it is the lowest on pucca road coverage and lowest on literacy, and it also has below-average water access.
 However, there is one important exception:
 Garo Hills is the most underserved specifically on water access, since it has the lowest JJM coverage.
  
-2. Scheme delivery gaps Jal Jeevan Mission and PM Awas Yojana- Constituencies with the lowest scheme delivery.
+2. Scheme delivery gaps :_Jal Jeevan Mission and PM Awas Yojana_- Constituencies with the lowest scheme delivery.
 **Lowest JJM coverage**: The weakest constituencies on Jal Jeevan Mission functional tap coverage are: Resubelpara(23.4%), Khliehriat (24.1%), Kharkutta (24.1%), Sohiong (26.6%), Mawhati (26.7%), Mendipathar (27.1%), Selsella (27.4%), Mawphlang (27.4%), Songsak (27.6%), Williamnagar (28.2%).
 
 **Lowest PM Awas completion**
-The weakest constituencies on PM Awas completion are: Sohiong (46.9%), East Shillong (48.0%), Mahendraganj (49.3%),Mawryngkneng (49.6%),Gambegre (50.3%),Selsella (51.4%), Shillong West (52.5%), Shillong North (53.4%),Mawphlang (53.9%), Ranikor (55.6%). **Repeated laggards across both schemes**: A few constituencies show up as weak performers in both: Sohiong, Selsella, Mawphlang.
+The weakest constituencies on PM Awas completion are: Sohiong (46.9%), East Shillong (48.0%), Mahendraganj (49.3%),Mawryngkneng (49.6%),Gambegre (50.3%),Selsella (51.4%), Shillong West (52.5%), Shillong North (53.4%),Mawphlang (53.9%), Ranikor (55.6%). 
+**Repeated laggards across both schemes**: A few constituencies show up as weak performers in both: Sohiong, Selsella, Mawphlang.
 
 When we look at the **Geographic pattern** of these data ,we found that the average delivery by region shows a visible pattern-
 **Garo Hills**- JJM average: 43.4%, PM Awas average: 71.0% ; **Jaintia Hills**-JJM average: 46.9%, PM Awas average: 77.3%, **Khasi Hills**- JJM average: 61.4%, PM Awas average: 69.9%.
@@ -52,9 +55,11 @@ Weakest districts for PM Awas- South West Garo Hills (56.9%), East Khasi Hills (
 The Bottom line on geography is that, _there is a geographic pattern_. JJM underperformance is strongly clustered in the Garo belt, especially North and East Garo Hills, PM Awas underperformance is less regionally concentrated and appears in both Khasi and Garo constituencies, East Khasi Hills has several PM Awas laggards despite relatively stronger JJM performance overall.
 
 **BPL concentration correlation with scheme delivery**
-When I look at data related to BPL household concentraion and scheme delivery, I used the following seven (7) variables, i).BPL Households Pct	, ii).JJM Functional Tap Connections Pct, iii).PM Awas Completion_Pct, iv).Literacy Rate Pct, v).Pucca Road Pct, vi).Internet 4G Coverage Pct, vii).Road Length Km. For this test, I employ Spearman's Rank correlation and OLS regression.I test to check whether there is a monotonic relationship between the two variables, meaning whether ,when one variable increases, does the other tend to increase or decrease.
+When I look at data related to BPL household concentraion and scheme delivery, I used the following seven (7) variables, i).BPL Households Pct	, ii).JJM Functional Tap Connections Pct, iii).PM Awas Completion_Pct, iv).Literacy Rate Pct, v).Pucca Road Pct, vi).Internet 4G Coverage Pct, vii).Road Length Km. 
 
-I test for the relationship between _BPL vs JJM and BPL vs PMAY_. My analysis found that BPL vs JJM the correlation is about -0.43, showing a moderate negative relationship between BPL and JJM, meaning, as BPL increases, JJM tends to decrease, or vice versa. The p-value is 0.00062, which is very small and well below the common threshold of 0.05. So this relationship is _statistically significant_. In essence, this means the negative relationship is unlikely to be due to random chance.
+For this test, I employ **Spearman's Rank correlation** and **OLS regression**.I test to check whether there is a monotonic relationship between the two variables, meaning whether, when one variable increases, does the other tend to increase or decrease.
+
+I first test for the relationship between _BPL vs JJM and BPL vs PMAY_. My analysis found that BPL vs JJM the correlation is about -0.43, showing a moderate negative relationship between BPL and JJM, meaning, as BPL increases, JJM tends to decrease, or vice versa. The p-value is 0.00062, which is very small and well below the common threshold of 0.05. So this relationship is _statistically significant_. In essence, this means the negative relationship is unlikely to be due to random chance.
 <img width="2368" height="1765" alt="BPL_vs_JJM_Correlation" src="https://github.com/user-attachments/assets/e20ac79f-c6d9-4094-beab-080d4c2e5cf4" />
 
 When I test for the correlation between BPL vs PMAY, I found that BPL vs PMAY correlation is about 0.048, which is very close to zero, meaning that there is almost no linear relationship between BPL and PMAY in my data. The p-value is 0.713, which is much larger than 0.05. So this relationship is _not statistically significant_. In plain English, there is no strong evidence of a real linear association between these two variables.
