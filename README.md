@@ -7,10 +7,9 @@ _For the purpose of this analysis, descriptive statistics were first calculated 
 __________________________________________________________________________________________________________________
 
 # Section 1 — Data Audit 
+1. Loading data: In this section,the data was analysed in R and Excel subsequently.I first load the data in R to perfrom Descriptive statistics (mean, median, minimum, maximum, stdard deviation) of 8 numerical variables of my choice. For this analysis, I have chosen **(i).Total_Households	(ii).Electorate 2023	(iii).BPL Households Count, (iv).MGNREGS Active Job Cards, (v).PM Awas Yojana Sanctioned, (vi).Health Sub Centres, (vii).Govt Primary Schools, (viii).PM KISAN Beneficiaries**. The variables chosen for this particular analysis are raw count data and all of these variables are representative of the Human Development Index through which we can assess the average achievement in key dimensions of human development .I first analysed the descriptive statistics of the data in Excel,and after which i run them in R. I cross checked both the results for data accuracy.
 
-1. Loading data: In this section,the data was analysed in R and Excel subsequently.I first load the data in R to perfrom Descriptive statistics (mean, median, minimum, maximum, stdard deviation) of 8 numerical variables of my choice. For this analysis, I have chosen **(i).Total_Households	(ii).Electorate 2023	(iii).BPL Households Count, (iv).MGNREGS Active Job Cards, (v).PM Awas Yojana Sanctioned, (vi).Health Sub Centres, (vii).Govt Primary Schools, (viii).PM KISAN Beneficiaries**. The variables chosen for this particular analysis are raw count data. I first analysed the descriptive statistics of the data in Excel,and after which i run them in R. I cross checked both the results for data accuracy.
-
-The code that was used to run this test in R is here:
+Click here for the code that was used to run this test in R:
 - <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Data%20Loading%20%26%20Descriptive%20statistics.txt"> Data Loading code in R</a>
 
 2. Identification of data quality issues — I inspected the sample file and after which I have created a file of just 8 numerical column and it looks generally clean structurally, but there are a few things that caught my attention that are worth checking before I proceed with the analysis. There are No missing values or duplicate records,every data is unique. The file has 60 rows and 28 columns and there are no nulls and no duplicated rows.
