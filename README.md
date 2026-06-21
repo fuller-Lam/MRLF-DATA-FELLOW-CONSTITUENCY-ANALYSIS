@@ -19,12 +19,13 @@ The results of the descriptive statistics is avaliable here:
 - <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Descriptive_Statistics.csv">Descritptive statistics of 8 numerical variables</a>
 
 _____________________________________________________________________________________________________________________________________________
-
 # Section 2 — Analytical Deep-Dive 
 1. Regional disparities - Comaprison between Khasi Hills, Jaintia Hills, and Garo Hills on Water access (JJM), Road infrastructure, and Literacy	                 **Khasi Hills** - _JJM functional tap connections (61.4%),Road length km (144.68km), Pucca road (63.05%) and Literacy rate (77.7%)_ ; **Jaintia Hills**	- _JJM functional tap connections (46.9%),Road length km (170.6km), Pucca road (49.92%) and Literacy rate (73.1%)_ ; **Garo Hills** -_JJM functional tap connections (43.4%),Road length km (173.7km), Pucca road (56.19%) and Literacy rate (74.0%)_.
 
 **Water access**- On JJM functional tap connections, Garo Hills is worst off at about 43.4%, followed by Jaintia Hills at 46.9%. Khasi Hills is clearly ahead at 61.4%. So if we focus only on household water access, Garo Hills is the most underserved region.
+
 **Road infrastructure**- Road infrastructure shows a more mixed story because there are two different measures here. On total road length, Khasi Hills has the lowest average at about 144.68 km, compared with 170.6 km in Jaintia Hills and 173.7 km in Garo Hills. But lower road length does not automatically mean worse infrastructure, because regions can differ in size and terrain.
+
 **Pucca road share**, which is usually the better quality indicator, Jaintia Hills is the weakest at 49.92%, compared with 56.19% in Garo Hills and 63.05% in Khasi Hills. So for road quality, Jaintia Hills is the most underserved.
 Literacy- For literacy rate, Jaintia Hills again ranks lowest at 73.1%, slightly below Garo Hills at 74.0%, and well below Khasi Hills at 77.7%.
 
