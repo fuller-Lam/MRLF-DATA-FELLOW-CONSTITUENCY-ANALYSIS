@@ -103,12 +103,15 @@ The Bottom line is that, among these indicators, literacy and 4G coverage move t
 ____________________________________________________________________________________________________________________________________________
 
 # Section 3 — Constituency Profile Generator 
-As directed, I have analysed this particular step in Jupyter notebook (where i also make use of AI tools to debug codes).
+As directed, I have analysed this particular step in Jupyter notebook.
 The following constituency profile was analysed and created: Constituency snapshot, Scheme status, Infrastructure , Benchmarking,and 
 Fund utilisation flag.
+
 The Constituency Profile is available here:
 - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Executable%20script.ipynb">Constituency Profile Generator</a>
 
+The results of this analysis is also available in excel form:
+- <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Meghalaya_Constituency_Report.csv">Constituency snapshot,Scheme status,Infrastructure,Benchmarking & Fund Utilisation</a>
 ____________________________________________________________________________________________________________________________________________
 
 # Section 4 — Bonus: Interactive Dashboard 
