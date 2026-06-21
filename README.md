@@ -29,8 +29,7 @@ ________________________________________________________________________________
 **Pucca road share**, which is usually the better quality indicator, Jaintia Hills is the weakest at 49.92%, compared with 56.19% in Garo Hills and 63.05% in Khasi Hills. So for road quality, Jaintia Hills is the most underserved.
 Literacy- For literacy rate, Jaintia Hills again ranks lowest at 73.1%, slightly below Garo Hills at 74.0%, and well below Khasi Hills at 77.7%.
 So, on Education outcomes, Jaintia Hills is the most underserved.
-
-Which region is most underserved?
+And as for the question of which region is the most underserved?
 If we judge overall across water, road quality, and literacy, the answer is:
 Jaintia Hills is the most underserved overall.
 
