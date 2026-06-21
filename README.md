@@ -77,6 +77,32 @@ When I test for the correlation between BPL vs PMAY, I found that the correlatio
 
 The correlation and OLS regression analyses data and findings can be viewed here: - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Correlation%20analysis.ipynb">Correlation and OLS regression findings<a/>
 
+Correlations-
+| Analysis               | Spearman_Correlation | P_Value  |
+| ---------------------- | -------------------- | -------- |
+| BPL vs JJM Coverage    | -0.42923             | 0.000621 |
+| BPL vs PMAY Completion | 0.048547             | 0.712614 |
+
+JJM Regression- 
+| Variable                 | Coefficient | P_Value  | Std_Error |
+| ------------------------ | ----------- | -------- | --------- |
+| Intercept                | \-1.1033    | 0.961889 | 22.98448  |
+| BPL_Households_Pct       | \-0.10681   | 0.651318 | 0.235044  |
+| Literacy_Rate_Pct        | 0.315762    | 0.21491  | 0.251673  |
+| Pucca_Road_Pct           | 0.380785    | 0.007127 | 0.136225  |
+| Internet_4G_Coverage_Pct | 0.224441    | 0.064261 | 0.118857  |
+
+PMAY Regression-
+
+| Variable                 | Coefficient | P_Value  | Std_Error |
+| ------------------------ | ----------- | -------- | --------- |
+| Intercept                | 73.86153    | 0.000257 | 18.8967   |
+| BPL_Households_Pct       | 0.112899    | 0.56145  | 0.193241  |
+| Literacy_Rate_Pct        | \-0.21276   | 0.308329 | 0.206913  |
+| Pucca_Road_Pct           | 0.094313    | 0.403378 | 0.111997  |
+| Internet_4G_Coverage_Pct | 0.078082    | 0.4277   | 0.097719  |
+
+
 
 3.**Fund utilisation** - The 5 constituencies with the lowest Constituency Development Fund utilisation are: Shangpung (35.3%), Gambegre (35.6%), Raksamgiri (36.8%), Mahendraganj (37.5%), Sohra (40.1%).A few observations were seen as per the data,where we found regional pattern, with _3 of the 5_ regions are in Garo Hills, 1 is in Jaintia Hills, and 1 is in Khasi Hills.So the underutilisation is not random - it appears more concentrated in Garo Hills and other less urban / harder-to-service areas. These 5 constituencies have consistently high BPL shares- Shangpung (44.0%), Gambegre (42.6%), Raksamgiri (43.1%),Mahendraganj (47.7%), Sohra (55.0%). For context, the average BPL in the dataset  is about 38.46%. So all five are above average, and Sohra is especially high.
 
