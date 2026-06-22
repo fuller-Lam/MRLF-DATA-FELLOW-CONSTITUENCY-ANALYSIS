@@ -160,6 +160,8 @@ Fund utilisation flag.
 
 The Constituency Profile is available here: - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Profile%20generator%20of%203%20const.ipynb">Constituency Profile Generator</a>
 
+I have also analysed for all 60 constituencies and the results can be viewed in this excel file: - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Meghalaya_Constituency_Report.csv">Profile of 60 constituencies Excel</a>  
+
 ____________________________________________________________________________________________________________________________________________
 
 # Section 4 —: Interactive Dashboard 
