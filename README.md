@@ -15,7 +15,8 @@ Click here for the code that was used to run this test in R:
 2. Identification of data quality issues — I inspected the sample file and after which I have created a file of just 8 numerical column and it looks generally clean structurally, but there are a few things that caught my attention that are worth checking before I proceed with the analysis. There are No missing values or duplicate records,every data is unique. The file has 60 rows and 28 columns and there are no nulls and no duplicated rows.
 However, there are certain noteworthy outlier in **Total_Households** and **Electorate_2023**. These two variables show the most outlier flags by Inter Quartile Range. A handful of constituencies have much larger values than the rest, especially Constituencies like Shillong Cantonment, Tura, North Tura, Pynthorumkhrah, and Jowai.
 
-3.Two columns were added derived from the dataset :_**Voters per household and BPL household share**._
+3.Two columns were added derived from the dataset : _**Voters per household**_ and **_BPL household share_**.
+
 Voters per household will help us compare how electorally dense each constituency is and BPL household share provides a standardized poverty measure, which is better than raw counts when comparing constituencies of different sizes.The new columns essentially has two additional numerical  normalized variable where Mawlai has about 7.03 Voters per household, BPL household share of about 0.26, and subsequently for the rest of the 60 constituencies was calculated. All of these calculations were carried out in Excel. 
 
 The dataset that was used in this section 1 of the analysis is avalaible here:
