@@ -90,6 +90,9 @@ The correlation and OLS regression analyses data and findings can be viewed here
 | BPL vs JJM Coverage    | -0.42923             | 0.000621 |
 | BPL vs PMAY Completion | 0.048547             | 0.712614 |
 
+The significant _negative association_ between poverty and tap water coverage underscores the importance of prioritizing poorer constituencies in water infrastructure investments. Strengthening implementation efforts in high-BPL areas could help reduce inequalities in access to safe drinking water and contribute to more inclusive rural development outcomes.
+
+
 **JJM Regression-** 
 | Variable                 | Coefficient | P_Value  | Std_Error |
 | ------------------------ | ----------- | -------- | --------- |
