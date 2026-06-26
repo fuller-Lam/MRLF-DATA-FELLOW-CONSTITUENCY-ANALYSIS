@@ -88,19 +88,19 @@ Conversely, Resubelpara recorded the lowest JJM coverage (23.4%), followed by Kh
 
 Overall, Shillong East appears among the top-performing constituencies for both JJM and PMAY, indicating consistently strong administrative performance, whereas several constituencies perform well in one programme but poorly in another.
 
-**Correlation tests:** I, then test for the correlation between _BPL vs JJM _and_ BPL vs PMAY_: 
+**Spearman's Rank Correlation:** I, then test for the correlation between  _BPL vs JJM_  and _BPL vs PMAY_: 
 
-In this analysis, I found a moderate negative and statistically significant relationship between BPL household concentration and JJM functional tap coverage (ρ = -0.429, p = 0.0006). This indicates that constituencies with higher proportions of BPL households generally have lower levels of household tap-water connectivity. The statistically significant result suggests that poverty remains an important factor associated with inequalities in access to drinking water infrastructure.
+In this analysis, I found a _moderate negative_ and statistically significant relationship between BPL household concentration and JJM functional tap coverage **(ρ = -0.429, p = 0.0006)**. This indicates that constituencies with higher proportions of BPL households generally have lower levels of household tap-water connectivity. The statistically significant result suggests that poverty remains an important factor associated with inequalities in access to drinking water infrastructure.
 
 From a policy perspective, these findings indicate that while poverty is associated with lower access to water infrastructure, housing programme performance appears to depend on other administrative and institutional factors rather than poverty levels alone.
 <img width="2368" height="1765" alt="BPL_vs_JJM_Correlation" src="https://github.com/user-attachments/assets/e20ac79f-c6d9-4094-beab-080d4c2e5cf4" />
 
-In contrast, no statistically significant relationship was observed between BPL concentration and PMAY completion (ρ = 0.049, p = 0.713). The correlation coefficient is close to zero, indicating virtually no relationship between poverty concentration and housing completion rates. This suggests that PMAY implementation is relatively independent of constituency-level poverty concentration.
+In contrast, no statistically significant relationship was observed between BPL concentration and PMAY completion **(ρ = 0.049, p = 0.713)**. The correlation coefficient is close to zero, indicating virtually no relationship between poverty concentration and housing completion rates. This suggests that PMAY implementation is relatively independent of constituency-level poverty concentration.
 <img width="2368" height="1765" alt="BPL_vs_PMAY_Correlation" src="https://github.com/user-attachments/assets/b6e8627f-0b5c-4639-a4aa-4b21ee67a161" />
 
 The correlation and OLS regression analyses data and findings can be viewed here: - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/correlation%20results.xlsx">Correlation and OLS regression findings<a/>
 
-**Correlations-**
+**Correlations results-**
 | Analysis               | Spearman_Correlation | P_Value  |
 | ---------------------- | -------------------- | -------- |
 | BPL vs JJM Coverage    | -0.42923             | 0.000621 |
@@ -108,8 +108,10 @@ The correlation and OLS regression analyses data and findings can be viewed here
 
 The significant _negative association_ between poverty and tap water coverage underscores the importance of prioritizing poorer constituencies in water infrastructure investments. Strengthening implementation efforts in high-BPL areas could help reduce inequalities in access to safe drinking water and contribute to more inclusive rural development outcomes.
 
+**Regression results:** 
 
-**JJM Regression-** 
+1. **JJM Regression**
+
 | Variable                 | Coefficient | P_Value  | Std_Error |
 | ------------------------ | ----------- | -------- | --------- |
 | Intercept                | \-1.1033    | 0.961889 | 22.98448  |
@@ -118,7 +120,10 @@ The significant _negative association_ between poverty and tap water coverage un
 | Pucca_Road_Pct           | 0.380785    | 0.007127 | 0.136225  |
 | Internet_4G_Coverage_Pct | 0.224441    | 0.064261 | 0.118857  |
 
-**PMAY Regression-**
+For Jal Jeevan Mission, the regression coefficient for BPL household concentration was β = -0.846 (p < 0.001). This statistically significant negative coefficient indicates that every one-percentage-point increase in the proportion of BPL households is associated with an estimated 0.85 percentage-point decline in functional tap-water coverage. The result confirms that poverty is a significant predictor of lower JJM performance and suggests that economically disadvantaged constituencies require greater investment in rural water infrastructure.
+
+
+2. **PMAY Regression**
 
 | Variable                 | Coefficient | P_Value  | Std_Error |
 | ------------------------ | ----------- | -------- | --------- |
@@ -128,6 +133,9 @@ The significant _negative association_ between poverty and tap water coverage un
 | Pucca_Road_Pct           | 0.094313    | 0.403378 | 0.111997  |
 | Internet_4G_Coverage_Pct | 0.078082    | 0.4277   | 0.097719  |
 
+For PMAY, the regression coefficient was β = 0.032 (p = 0.818), indicating no statistically significant relationship between BPL household concentration and housing completion. The small positive coefficient is practically negligible and statistically insignificant, suggesting that poverty levels do not meaningfully predict PMAY implementation outcomes.
+
+The combined evidence from the constituency rankings, Spearman correlation analysis, and OLS regression demonstrates that welfare schemes respond differently to local socio-economic conditions. Water infrastructure delivery under the Jal Jeevan Mission is significantly associated with poverty concentration, with poorer constituencies consistently exhibiting lower service coverage. By contrast, PMAY implementation shows no statistically significant association with poverty, indicating that housing outcomes are more likely determined by programme administration, institutional capacity, and implementation efficiency.
 
 
 3.**Fund utilisation** - The 5 constituencies with the lowest Constituency Development Fund utilisation are: Shangpung (35.3%), Gambegre (35.6%), Raksamgiri (36.8%), Mahendraganj (37.5%), Sohra (40.1%).A few observations were seen as per the data,where we found regional pattern, with _3 of the 5_ regions are in Garo Hills, 1 is in Jaintia Hills, and 1 is in Khasi Hills.So the underutilisation is not random - it appears more concentrated in Garo Hills and other less urban / harder-to-service areas. These 5 constituencies have consistently high BPL shares- Shangpung (44.0%), Gambegre (42.6%), Raksamgiri (43.1%),Mahendraganj (47.7%), Sohra (55.0%). For context, the average BPL in the dataset  is about 38.46%. So all five are above average, and Sohra is especially high.
