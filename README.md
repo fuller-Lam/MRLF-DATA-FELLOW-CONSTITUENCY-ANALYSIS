@@ -7,13 +7,12 @@ _For the purpose of this analysis, descriptive statistics were first calculated 
 __________________________________________________________________________________________________________________
 
 # Section 1 — Data Audit 
-1.  **Loading data**: In this section,the data was analysed in R and Excel subsequently.I first load the data in R to perfrom Descriptive statistics (mean, median, minimum, maximum, standard deviation) of 8 numerical variables of my choice. For this analysis, I have chosen **(i).Total_Households	(ii).Electorate 2023	(iii).BPL Households Count, (iv).MGNREGS Active Job Cards, (v).PM Awas Yojana Sanctioned, (vi).Health Sub Centres, (vii).Govt Primary Schools, (viii).PM KISAN Beneficiaries**. The variables chosen for this analysis are raw count data, and all of these variables are representative of the Human Development Index through which we can assess the average achievement in key dimensions of human development.I first analysed the descriptive statistics of the data in Excel,and after which i run them in R. I cross checked both the results for data accuracy.
+1.**Loading data**: In this section, the data was analysed in R and Excel. Subsequently, I first load the data in R to perfrom Descriptive statistics (mean, median, minimum, maximum, standard deviation) of 8 numerical variables of my choice. For this analysis, I have chosen **(i).Total_Households (ii).Electorate 2023	(iii).BPL Households Count, (iv).MGNREGS Active Job Cards, (v).PM Awas Yojana Sanctioned, (vi).Health Sub Centres, (vii).Govt Primary Schools, (viii).PM KISAN Beneficiaries**. The variables chosen for this analysis are raw count data, and all of these variables are representative of the Human Development Index through which we can assess the average achievement in key dimensions of human development. I first analysed the descriptive statistics of the data in Excel, and after which i run them in R. I cross checked both the results for data accuracy.
 
 Click here for the code that was used to run this test in R:
 - <a href="https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/Data%20Loading%20%26%20Descriptive%20statistics.txt"> Data Loading code in R</a>
 
-2. **Identification of data quality issues** — I inspected the sample file and after which I have created a file of just 8 numerical column and it looks generally clean structurally, but there are a few things that caught my attention that are worth checking before I proceed with the analysis. There are No missing values or duplicate records,every data is unique. The file has 60 rows and 28 columns and there are no nulls and no duplicated rows.
-However, there are certain noteworthy outlier in **Total_Households** and **Electorate_2023**. These two variables show the most outlier flags by Inter Quartile Range. A handful of constituencies have much larger values than the rest, especially Constituencies like Shillong Cantonment, Tura, North Tura, Pynthorumkhrah, and Jowai.
+2.**Identification of data quality issues** — I inspected the sample file, and after which I have created a file of just 8 numerical column and it looks generally clean structurally, but there are a few things that caught my attention that are worth checking before I proceed with the analysis. There are No missing values or duplicate records, every data is unique. The file has 60 rows and 28 columns and there are no nulls and no duplicated rows. However, there are certain noteworthy outlier in **Total_Households** and **Electorate_2023**. These two variables show the most outlier flags by Inter Quartile Range. A handful of constituencies have much larger values than the rest, especially Constituencies like Shillong Cantonment, Tura, North Tura,Pynthorumkhrah and Jowai.
 
 3.Two columns were added derived from the dataset : _**Voters per household**_ and **_BPL household share_**.
 
@@ -37,7 +36,7 @@ The results of the descriptive statistics of the 8 variables in this analysis is
 
 _____________________________________________________________________________________________________________________________________________
 # Section 2 — Analytical Deep-Dive 
-1. Regional disparities - Comaprison between Khasi Hills, Jaintia Hills, and Garo Hills on Water access (JJM), Road infrastructure, and Literacy	                 **Khasi Hills** - _JJM functional tap connections (61.4%),Road length km (144.68km), Pucca road (63.05%) and Literacy rate (77.7%)_ ; **Jaintia Hills**	- _JJM functional tap connections (46.9%),Road length km (170.6km), Pucca road (49.92%) and Literacy rate (73.1%)_ ; **Garo Hills** -_JJM functional tap connections (43.4%),Road length km (173.7km), Pucca road (56.19%) and Literacy rate (74.0%)_.
+1.**Regional disparities**: Comaprison between Khasi Hills, Jaintia Hills, and Garo Hills on Water access (JJM), Road infrastructure, and Literacy. **Khasi Hills** - _JJM functional tap connections (61.4%),Road length km (144.68km), Pucca road (63.05%) and Literacy rate (77.7%)_ ; **Jaintia Hills**-JJM functional tap connections (46.9%),Road length km (170.6km), Pucca road (49.92%) and Literacy rate (73.1%)_ ; **Garo Hills** -_JJM functional tap connections (43.4%),Road length km (173.7km), Pucca road (56.19%) and Literacy rate (74.0%)_.
 
 **Water access**- On JJM functional tap connections, Garo Hills is worst off at about 43.4%, followed by Jaintia Hills at 46.9%. Khasi Hills is clearly ahead at 61.4%. So if we focus only on household water access, Garo Hills is the most underserved region.
 
@@ -54,21 +53,18 @@ That’s because it is the lowest on pucca road coverage and lowest on literacy,
 However, there is one important exception:
 Garo Hills is the most underserved specifically on water access, since it has the lowest JJM coverage.
  
-2. Scheme delivery gaps :_Jal Jeevan Mission and PM Awas Yojana_- Constituencies with the lowest scheme delivery.
-**Lowest JJM coverage**: The weakest constituencies on Jal Jeevan Mission functional tap coverage are: Resubelpara(23.4%), Khliehriat (24.1%), Kharkutta (24.1%), Sohiong (26.6%), Mawhati (26.7%), Mendipathar (27.1%), Selsella (27.4%), Mawphlang (27.4%), Songsak (27.6%), Williamnagar (28.2%).
+2.**Scheme delivery gaps** : _Jal Jeevan Mission_ and _PM Awas Yojana_ - Constituencies with the lowest scheme delivery. **Lowest JJM coverage**: The weakest constituencies on Jal Jeevan Mission functional tap coverage are: Resubelpara(23.4%), Khliehriat (24.1%), Kharkutta (24.1%), Sohiong (26.6%), Mawhati (26.7%), Mendipathar (27.1%), Selsella (27.4%), Mawphlang (27.4%), Songsak (27.6%), Williamnagar (28.2%).
 
 **Lowest PM Awas completion**
 The weakest constituencies on PM Awas completion are: Sohiong (46.9%), East Shillong (48.0%), Mahendraganj (49.3%),Mawryngkneng (49.6%),Gambegre (50.3%),Selsella (51.4%), Shillong West (52.5%), Shillong North (53.4%),Mawphlang (53.9%), Ranikor (55.6%). 
 **Repeated laggards across both schemes**: A few constituencies show up as weak performers in both: Sohiong, Selsella, Mawphlang.
 
-When we look at the **Geographic pattern** of these data ,we found that the average delivery by region shows a visible pattern-
+When we look at the **Geographic pattern** of these data ,we found that the average delivery by region shows a visible pattern -
 **Garo Hills**- JJM average: 43.4%, PM Awas average: 71.0% ; **Jaintia Hills**-JJM average: 46.9%, PM Awas average: 77.3%, **Khasi Hills**- JJM average: 61.4%, PM Awas average: 69.9%.
 What we know from the data is that, JJM weakness is concentrated more in Garo Hills and parts of Jaintia Hills.Khasi Hills performs much better on JJM on average, though it still has some PM Awas laggards. PM Awas weakness is more mixed geographically, several of the bottom constituencies are in Khasi Hills, but South West /West Garo Hills also contribute lagging constituencies
 
 **By district**
-District averages shows the pattern further:
-Weakest districts for JJM- North Garo Hills (32.4%), East Garo Hills (34.1%), South West Garo Hills (42.1%), East Jaintia Hills (42.2%)
-Weakest districts for PM Awas- South West Garo Hills (56.9%), East Khasi Hills (68.3%), West Khasi Hills (69.1%), North Garo Hills (69.2%).
+District averages shows the pattern further: Weakest districts for JJM- North Garo Hills (32.4%), East Garo Hills (34.1%), South West Garo Hills (42.1%), East Jaintia Hills (42.2%). Weakest districts for PM Awas- South West Garo Hills (56.9%), East Khasi Hills (68.3%), West Khasi Hills (69.1%), North Garo Hills (69.2%).
 The Bottom line on geography is that, _there is a geographic pattern_. JJM underperformance is strongly clustered in the Garo belt, especially North and East Garo Hills, PM Awas underperformance is less regionally concentrated and appears in both Khasi and Garo constituencies, East Khasi Hills has several PM Awas laggards despite relatively stronger JJM performance overall.
 
 **BPL concentration correlation with scheme delivery**: To account for the correlation between BPL concentration and scheme delivery, I tested this theory through Spearman's rank correlation and OLS regression on two schemes (i.e. Jal Jeevan Mission and PM Awas Yojna).
