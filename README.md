@@ -95,7 +95,6 @@ From a policy perspective, these findings indicate that while poverty is associa
 In contrast, no statistically significant relationship was observed between BPL concentration and PMAY completion **(ρ = 0.049, p = 0.713)**. The correlation coefficient is close to zero, indicating virtually no relationship between poverty concentration and housing completion rates. This suggests that PMAY implementation is relatively independent of constituency-level poverty concentration.
 <img width="2368" height="1765" alt="BPL_vs_PMAY_Correlation" src="https://github.com/user-attachments/assets/b6e8627f-0b5c-4639-a4aa-4b21ee67a161" />
 
-The correlation and OLS regression analyses data and findings can be viewed here: - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/correlation%20results.xlsx">Correlation and OLS regression findings<a/>
 
 **Correlations results-**
 | Analysis               | Spearman_Correlation | P_Value  |
@@ -133,6 +132,10 @@ For Jal Jeevan Mission, the regression coefficient for BPL household concentrati
 For PMAY, the regression coefficient was β = 0.032 (p = 0.818), indicating no statistically significant relationship between BPL household concentration and housing completion. The small positive coefficient is practically negligible and statistically insignificant, suggesting that poverty levels do not meaningfully predict PMAY implementation outcomes.
 
 The combined evidence from the constituency rankings, Spearman correlation analysis, and OLS regression demonstrates that welfare schemes respond differently to local socio-economic conditions. Water infrastructure delivery under the Jal Jeevan Mission is significantly associated with poverty concentration, with poorer constituencies consistently exhibiting lower service coverage. By contrast, PMAY implementation shows no statistically significant association with poverty, indicating that housing outcomes are more likely determined by programme administration, institutional capacity, and implementation efficiency.
+
+The correlation and OLS regression analyses data and findings can be viewed here: - <a href= "https://github.com/fuller-Lam/MRLF-DATA-FELLOW-CONSTITUENCY-ANALYSIS/blob/main/correlation%20results.xlsx">Correlation and OLS regression findings<a/>
+
+
 
 
 3.**Fund utilisation** - The 5 constituencies with the lowest Constituency Development Fund utilisation are: Shangpung (35.3%), Gambegre (35.6%), Raksamgiri (36.8%), Mahendraganj (37.5%), Sohra (40.1%).A few observations were seen as per the data,where we found regional pattern, with _3 of the 5_ regions are in Garo Hills, 1 is in Jaintia Hills, and 1 is in Khasi Hills.So the underutilisation is not random - it appears more concentrated in Garo Hills and other less urban / harder-to-service areas. These 5 constituencies have consistently high BPL shares- Shangpung (44.0%), Gambegre (42.6%), Raksamgiri (43.1%),Mahendraganj (47.7%), Sohra (55.0%). For context, the average BPL in the dataset  is about 38.46%. So all five are above average, and Sohra is especially high.
